@@ -3,6 +3,7 @@ import Image from "next/image";
 import girlImage from "../public/images/girl-image.png";
 import MainInfo from "@/components/main-info/MainInfo";
 import TopCategories from "@/components/categories/TopCategories";
+import FeaturedCourses from "@/components/courses/FeaturedCourses";
 
 export default function Home() {
   return (
@@ -34,6 +35,7 @@ export default function Home() {
       </div>
       <MainInfo />
       <TopCategories />
+      <FeaturedCourses />
     </div>
   );
 }
